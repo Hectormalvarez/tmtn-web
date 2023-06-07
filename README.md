@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Taylor Made Tech Net
 
-## Getting Started
+this is a developer portfolio for Hector Alvarez that will showcase recent projects by pulling public data from github's api
 
-First, run the development server:
+## About the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This developer portfolio website project offers the following features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Fetches data from GitHub public profile using the GitHub REST API to showcase repositories, commits, and contributions.
+- Displays projects, skills, experience, and contact information to provide a comprehensive overview of work and abilities.
+- Incorporates a responsive design that ensures seamless viewing and optimal user experience across various devices and screen sizes.
+- Deployed using AWS Amplify, enabling easy hosting and continuous deployment to keep portfolio up-to-date effortlessly.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The project utilizes the following technologies:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A superset of JavaScript that adds static typing to the language.
+- Next.js: A framework for building server-rendered React applications.
+- AWS Amplify: A development platform for building and deploying serverless applications.
+- GitHub REST API: A public API for accessing GitHub data.
