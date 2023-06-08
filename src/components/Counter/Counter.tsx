@@ -1,3 +1,1 @@
-export const Counter = () => (
-    <div>COUNTER</div>
-)
+export const Counter = () => <div>COUNTER</div>

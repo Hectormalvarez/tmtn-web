@@ -3,24 +3,25 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: 'Roboto Mono', Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: 'Roboto Mono', Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono',
+    'Droid Sans Mono', 'Courier New', monospace;
 
   --font-robo: 'Roboto', sans-serif;
 
-  --primary-color: #1B2769;
-  --secondary-color: #8494EC;
+  --primary-color: #1b2769;
+  --secondary-color: #8494ec;
   --background-color: #f3f4fc;
   --accent-color: #c2d2ff;
-  --dark-color: #3B4169;
-  --highlight-color: #2F43B5;
+  --dark-color: #3b4169;
+  --highlight-color: #2f43b5;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Playfair Display', serif;;
+  font-family: 'Playfair Display', serif;
 }
 
 html,

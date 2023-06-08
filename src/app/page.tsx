@@ -1,25 +1,16 @@
-import Image from 'next/image'
-
 import styles from './page.module.css'
-import { Header } from '@/features/ProfileHeader'
+import { ProfileHeader } from '@/features/profileheader'
+import { GithubCount } from '@/features/githubcount'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Header />
+      <ProfileHeader />
       <GithubCount />
       <Footer />
     </main>
   )
 }
-
-
-
-const GithubCount = () => (
-  <section className={styles.section}>
-    <h1>section title</h1>
-  </section>
-)
 
 const Footer = () => (
   <footer className={styles.footer}>
