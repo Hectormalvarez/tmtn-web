@@ -3,8 +3,9 @@ import styles from './githubcount.module.css'
 
 export const GithubCount = () => (
   <section className={styles.section}>
-    <h1>section title</h1>
-    <Counter />
-    <Counter />
+    <div className={styles.ghCounters}>
+      <Counter label='Public Repos' count={14} />
+      <Counter label='followers' count={2} />
+    </div>
   </section>
 )

@@ -6,7 +6,17 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <ProfileHeader />
-      <GithubCount />
+      <section className={styles.ghSection}>
+        <GithubCount />
+        <div>
+          <h1>Repo List</h1>
+          <p>repo</p>
+          <p>repo</p>
+          <p>repo</p>
+          <p>repo</p>
+          <p>repo</p>
+        </div>
+      </section>
       <Footer />
     </main>
   )

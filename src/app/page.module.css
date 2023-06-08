@@ -1,14 +1,19 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   min-height: 100vh;
 }
 
-.section {
-  width: 90vw;
+.ghSection {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.ghSection > * {
+  margin: 2rem
 }
 
 .footer {
