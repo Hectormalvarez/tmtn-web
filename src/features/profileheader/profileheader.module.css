@@ -11,7 +11,6 @@
   position: relative;
   width: 25vw;
   height: 50%;
-  flex-grow: 1;
 }
 
 .avatar img {

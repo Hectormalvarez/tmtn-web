@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
-import styles from './ProfileHeader.module.css'
+import styles from './profileheader.module.css'
 
 export const ProfileHeader = () => (
-  <header className={styles.header}>
+  <header id="header" className={styles.header}>
     <div className={styles.avatar}>
       <Image
         src="https://avatars.githubusercontent.com/u/31625850?v=4"
