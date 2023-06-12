@@ -1,0 +1,22 @@
+.githubrepos {
+    background-color: aquamarine;
+}
+
+@media (max-width: 800px) {
+    .githubrepos {
+        margin: 0 .5em;
+    }
+}
+
+.githubrepos h1 {
+    font-size: 1.2rem;
+    padding: .4em 0;
+    text-align: center;
+}
+
+.repo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5em;
+    border: 2px solid black;
+}
