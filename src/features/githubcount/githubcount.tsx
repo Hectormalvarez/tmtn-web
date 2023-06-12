@@ -1,12 +1,21 @@
 import { Counter } from '@/components/counter'
 import styles from './githubcount.module.css'
 
-export const GithubCount = () => {
+import { counterProps } from '@/components/counter'
+
+interface GithubCountProps {
+    counters: counterProps[];
+}
+
+export const GithubCount = ({ counters }: GithubCountProps) => {
     return (
         <section className={styles.section}>
             <div className={styles.ghCounters}>
-                <Counter label='Public Repos' count={14}/>
-                <Counter label='followers' count={2}/>
+                {
+                    counters.map((counter) => (
+                        <Counter key={counter.label} {...counter} />
+                    ))
+                }
             </div>
         </section>
     );

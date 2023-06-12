@@ -11,10 +11,10 @@ export default function Home() {
   const counts = [{label: "Followers", value: 100}, {label: "Repos", value: 100}]
 
   return (
-    <main className={styles.main}>
-      <ProfileHeader />
-      <section className={styles.ghSection}>
-        <GithubCount />
+    <div className={styles.container}>
+      <ProfileHeader name={name} bio={bio} />
+      <main className={styles.main}>
+        <GithubCount counters={counts} />
         <div>
           <h1>Repo List</h1>
           <p>repo</p>

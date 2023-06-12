@@ -1,13 +1,13 @@
 import styles from './counter.module.css'
 
-interface counterProps {
+export interface counterProps {
     label: string,
-    count: number
+    value: number
 }
 
-export const Counter = ({label, count}: counterProps) => (
+export const Counter = ({label, value}: counterProps) => (
     <div className={styles.counterContainer}>
-        <h2>{label}</h2>
-        <p>{count}</p>
+        <p>{label}</p>
+        <p>{value}</p>
     </div>
 )

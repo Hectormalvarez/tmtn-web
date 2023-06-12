@@ -2,15 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
 }
 
 .ghCounters {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
-}
-
-.ghCounters>* {
-    padding: 1rem
 }
