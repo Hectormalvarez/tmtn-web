@@ -2,7 +2,12 @@ import Image from 'next/image'
 
 import styles from './profileheader.module.css'
 
-export const ProfileHeader = () => (
+interface ProfileHeaderProps {
+  name: string
+  bio: string
+}
+
+export const ProfileHeader = ({name, bio}: ProfileHeaderProps) => (
   <header id="header" className={styles.header}>
     <div className={styles.avatar}>
       <Image
@@ -12,9 +17,9 @@ export const ProfileHeader = () => (
       />
     </div>
     <div className={styles.title}>
-      <h1 className={styles.name}>Hector Alvarez</h1>
+      <h1 className={styles.name}>{name}</h1>
       <p className={styles.bio}>
-        Systems administrator that is learning devops
+        {bio}
       </p>
     </div>
   </header>

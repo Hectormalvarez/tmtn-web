@@ -11,10 +11,12 @@
 
   --primary-color: #1b2769;
   --secondary-color: #8494ec;
-  --background-color: #f3f4fc;
+  --background-color: #e9f0f1;
   --accent-color: #c2d2ff;
   --dark-color: #3b4169;
   --highlight-color: #2f43b5;
+
+  font-size: calc(0.5em + 1vw);
 }
 
 * {

@@ -1,21 +1,18 @@
-.main {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  margin: 0 auto;
 }
 
-.ghSection {
+.main {
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  width: 90%;
+  width: 100%;
 }
 
-.ghSection > * {
-  margin: 2rem
-}
-
-.footer {
-  padding: 1rem;
+@media (min-width: 800px) {
+  .container {
+    width: 75%;
+  }
 }
