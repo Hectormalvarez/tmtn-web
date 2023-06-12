@@ -1,6 +1,9 @@
 import styles from './page.module.css'
 import { ProfileHeader } from '@/features/profileheader'
 import { GithubCount } from '@/features/githubcount'
+import { ProfileHeader } from '@/features/profileheader'
+import { ProfileFooter } from '@/features/profilefooter'
+
 
 export default function Home() {
   return (
@@ -16,14 +19,8 @@ export default function Home() {
           <p>repo</p>
           <p>repo</p>
         </div>
-      </section>
-      <Footer />
-    </main>
+      </main>
+      <ProfileFooter />
+    </div>
   )
 }
-
-const Footer = () => (
-  <footer className={styles.footer}>
-    <p>© 2022 Hector Alvarez</p>
-  </footer>
-)
