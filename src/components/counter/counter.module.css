@@ -1,5 +1,9 @@
 .counterContainer {
     background-color: azure;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
     width: 100%;
+    padding: .8em 0;
+    font-size: 1.1em;
 }
